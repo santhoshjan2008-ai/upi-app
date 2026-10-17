@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment secrets — NEVER commit real .env files
+.env
+.env.local
+.env.*.local
+
+# Test coverage reports
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Production build output
+dist/
+build/
+
+# OS artefacts
+.DS_Store
+Thumbs.db
